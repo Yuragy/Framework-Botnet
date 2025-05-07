@@ -36,22 +36,22 @@ Abbreviated instructions for working with the project (scripts in the scripts/ f
 4. Deploy:
 ./scripts/deploy.sh
 # 4. Settings and configuration
-4.1 System configuration
+-  System configuration
 The config/system.conf file:
 [system].
 log_level=INFO
 max_threads=10
-4.2 Configuration of bots
+-  Configuration of bots
 File config/bots.conf:
 [bot1]
 task_type=DOWNLOAD
 priority=HIGH
 params=url:http://localhost/file.txt,destination:/tmp/file.txt
 # 5. Running and configuring with Docker
-Build the image:
+ - Build the image:
 docker build -t image -f docker/Dockerfile .
 
-Launching the container:
+ - Launching the container:
 docker run -d -p 8080:8080 image
 
 # 6. Additional information
