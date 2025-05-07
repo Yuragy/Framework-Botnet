@@ -14,8 +14,8 @@ Framework for creating and managing a botnet.
  10. Monitoring and reports: collection of statistics, generation of reports on work done.
 
 # 2. Getting Started
-This section describes the general procedure for building and starting the project.
-Required components
+- This section describes the general procedure for building and starting the project.
+- Required components
 CMake, compilers (GCC/Clang) - if the project includes building C++ code via CMake.
 Libraries (Boost, OpenSSL, etc.) - depends on the specific code.
 Docker - if containerization is planned.
