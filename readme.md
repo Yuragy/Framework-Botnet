@@ -84,3 +84,5 @@ Automatic trace removal, encryption, obfuscation.
 6.10 Monitoring and reporting
 Statistics on emails opened, links clicked.
 Generation of summary reports.
+
+## This is a tutorial demonstrating the possibility, the responsibility for use lies with you!
