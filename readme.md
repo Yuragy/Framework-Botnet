@@ -1,4 +1,4 @@
-## Framework_Botnet
+## Framework Botnet
 Framework for creating and managing a botnet.
 
 # 1. basic information
