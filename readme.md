@@ -17,23 +17,23 @@ Framework for creating and managing a botnet.
 - This section describes the general procedure for building and starting the project.
 - Required components
 CMake, compilers (GCC/Clang) - if the project includes building C++ code via CMake.
-Libraries (Boost, OpenSSL, etc.) - depends on the specific code.
+- Libraries (Boost, OpenSSL, etc.) - depends on the specific code.
 Docker - if containerization is planned.
-Building the project
+- Building the project
 The build script is located in ./scripts/build.sh:
 ./scripts/build.sh
 The output results in an executable file in the build/ folder.
-Running the project
+- Running the project
 ./build/your_project_executable
 # 3. basic commands
 Abbreviated instructions for working with the project (scripts in the scripts/ folder):
-Build:
+1. Build:
 ./scripts/build.sh
-Tests:
+2. Tests:
 ./scripts/test.sh
-Load testing:
+3. Load testing:
 ./scripts/load_test.sh
-Deploy:
+4. Deploy:
 ./scripts/deploy.sh
 # 4. Settings and configuration
 4.1 System configuration
