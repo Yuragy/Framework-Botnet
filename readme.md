@@ -49,10 +49,10 @@ priority=HIGH
 params=url:http://localhost/file.txt,destination:/tmp/file.txt
 # 5. Running and configuring with Docker
 Build the image:
-docker build -t your_project_image -f docker/Dockerfile .
+docker build -t image -f docker/Dockerfile .
 
 Launching the container:
-docker run -d -p 8080:8080 your_project_image
+docker run -d -p 8080:8080 image
 
 # 6. Additional information
 The following is a more generalized description of the project, touching on mass mailings, phishing, data collection, etc.
