@@ -57,31 +57,31 @@ docker run -d -p 8080:8080 image
 # 6. Additional information
 The following is a more generalized description of the project, touching on mass mailings, phishing, data collection, etc.
 
-6.1 Mass mailings
+1. Mass mailings
 Email, SMS, Telegram, WhatsApp, Facebook, Instagram.
 Templates for personalization and increased efficiency.
-6.2 Phishing and social engineering
+2. Phishing and social engineering
 Sending phishing links leading to fake websites.
 URL masking (shorteners, redirects).
-6.3 Software distribution
+3. Software distribution
 Attaching files.
 Automatic download/installation.
-6.4 Botnet management
+4. Botnet management
 Centralized commands for infected devices (BotNetManager).
 Automatic bot updates.
-6.5 Self-protection and stealthy distribution
+5. Self-protection and stealthy distribution
 Antivirus bypass, polymorphism.
 Protection from analysis: encryption, obfuscation.
-6.6 Data collection
+6. Data collection
 Collection of credentials, payment information.
 Send to C2.
-6.7 Support for different operating systems
+7. Support for different operating systems
 Using specific vulnerabilities for Windows/Linux/MacOS/Android/iOS.
-6.8 Bypass captchas and other protections
+8. Bypass captchas and other protections
 Machine learning methods or recognition services.
-6.9 Self-protection features
+9. Self-protection features
 Automatic trace removal, encryption, obfuscation.
-6.10 Monitoring and reporting
+10. Monitoring and reporting
 Statistics on emails opened, links clicked.
 Generation of summary reports.
 
