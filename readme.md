@@ -1,17 +1,17 @@
 ## Framework Botnet
 Framework for creating and managing a botnet.
 
-# 1. basic information
-Various attack methods (automated messaging, phishing, social engineering).
-Wide range of distribution: email, SMS, messengers (Telegram, WhatsApp), social networks (Facebook, Instagram), etc.
-Software distribution: sending and auto-installation of software on recipients' devices.
-Botnet management: centralized orchestration of infected devices.
-Stealth technologies: polymorphism, antivirus bypass, encryption, obfuscation.
-Data collection: stealing passwords, payment details, stored browser data.
-Multi-platform: support for Windows, Linux, MacOS, Android, iOS.
-Captcha bypass: built-in captcha solving methods (CaptchaSolver).
-Self-protection: hiding traces of presence, protection from analysis.
-Monitoring and reports: collection of statistics, generation of reports on work done.
+# Basic information
+ 1. Various attack methods (automated messaging, phishing, social engineering).
+ 2. Wide range of distribution: email, SMS, messengers (Telegram, WhatsApp), social networks (Facebook, Instagram), etc.
+ 3. Software distribution: sending and auto-installation of software on recipients' devices.
+ 4. Botnet management: centralized orchestration of infected devices.
+ 5. Stealth technologies: polymorphism, antivirus bypass, encryption, obfuscation.
+ 6. Data collection: stealing passwords, payment details, stored browser data.
+ 7. Multi-platform: support for Windows, Linux, MacOS, Android, iOS.
+ 8. Captcha bypass: built-in captcha solving methods (CaptchaSolver).
+ 9. Self-protection: hiding traces of presence, protection from analysis.
+ 10. Monitoring and reports: collection of statistics, generation of reports on work done.
 
 # 2. Getting Started
 This section describes the general procedure for building and starting the project.
