@@ -85,4 +85,8 @@ Automatic trace removal, encryption, obfuscation.
 Statistics on emails opened, links clicked.
 Generation of summary reports.
 
+
+## Useful resources on this topic:
+https://www.silentpush.com/blog/scattered-spider-2025/ 
+
 ## This is a tutorial demonstrating the possibility, the responsibility for use lies with you!
