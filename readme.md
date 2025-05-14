@@ -40,7 +40,7 @@ Abbreviated instructions for working with the project (scripts in the scripts/ f
 Сonfig/system.conf file: log_level=INFO max_threads=10
 
 File config/bots.conf:
-   task_type=DOWNLOAD
+  - task_type=DOWNLOAD
   - priority=HIGH
   - params=url:http://localhost/file.txt,destination:/tmp/file.txt
 
