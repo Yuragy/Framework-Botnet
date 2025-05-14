@@ -1,7 +1,7 @@
 ## Framework Botnet
 Framework for creating and managing a botnet.
 
-# Functionality
+# 1. Functionality
  1. Various attack methods (automated messaging, phishing, social engineering).
  2. Wide range of distribution: email, SMS, messengers (Telegram, WhatsApp), social networks (Facebook, Instagram), etc.
  3. Software distribution: sending and auto-installation of software on recipients' devices.
