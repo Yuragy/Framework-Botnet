@@ -1,5 +1,5 @@
 ## Framework for creating and managing a botnet: 
-![](./scr/applsci-09-02375-g001.png)
+![](./scr/IoT_M2M_communication.png)
 
 # 1. Functionality
  1. Various attack methods (automated messaging, phishing, social engineering).
