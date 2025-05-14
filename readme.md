@@ -1,6 +1,4 @@
-<center> 
-**Framework for creating and managing a botnet** 
-</center> 
+                                           Framework for creating and managing a botnet 
 
 ![](./scr/IoT_M2M_communication.png)
 
