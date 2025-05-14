@@ -88,23 +88,23 @@ Generation of summary reports.
 
 ## Useful resources on this topic:
 
-1. **Master of Puppets: Analyzing And Attacking A Botnet For Fun And Profit**
+1. **Master of Puppets: Analyzing And Attacking A Botnet For Fun And Profit : **
    A deep dive into the centralized architecture of the Cutwail/Pushdo spam botnet: C\&C server layouts, command-exchange protocols, management software vulnerabilities, and red-team counter-attack techniques.
    [https://arxiv.org/abs/1511.06090](https://arxiv.org/abs/1511.06090)
 
-2. **Peer-to-Peer Botnets**
+2. **Peer-to-Peer Botnets : **
    A survey of P2P botnets: how nodes in a flat network distribute commands without a single point of failure, detection methods, and examples like Trojan.
    [https://www.cs.ucf.edu/\~czou/research/P2PBotnets-bookChapter.pdf](https://www.cs.ucf.edu/~czou/research/P2PBotnets-bookChapter.pdf)
 
-3. **Fast Flux 101: How Cybercriminals Improve the Resilience of Their Infrastructure**
+3. **Fast Flux 101: How Cybercriminals Improve the Resilience of Their Infrastructure : **
    A hands-on guide to fast-flux techniques: dynamically rotating DNS records to hide C\&C servers behind a proxy network, making takedown and blocking efforts much harder.
    [https://unit42.paloaltonetworks.com/fast-flux-101/](https://unit42.paloaltonetworks.com/fast-flux-101/)
 
-4. **Inside the Infamous Mirai IoT Botnet: A Retrospective Analysis**
+4. **Inside the Infamous Mirai IoT Botnet: A Retrospective Analysis : **
    A retrospective look at the Mirai IoT botnet: infection vectors for “smart” devices, the design of its distributed network, DDoS-attack characteristics, and lessons for securing IoT ecosystems.
    [https://blog.cloudflare.com/inside-mirai-the-infamous-iot-botnet-a-retrospective-analysis/](https://blog.cloudflare.com/inside-mirai-the-infamous-iot-botnet-a-retrospective-analysis/)
 
-5. **D-LNBot: A Scalable, Cost-Free and Covert Hybrid Botnet on Bitcoin’s Lightning Network**
+5. **D-LNBot: A Scalable, Cost-Free and Covert Hybrid Botnet on Bitcoin’s Lightning Network : **
    Describes a hybrid botnet architecture where commands are embedded in Lightning Network payments: combining C\&C servers with a distributed proxy layer for high anonymity and resilience.
    [https://arxiv.org/abs/2112.07623](https://arxiv.org/abs/2112.07623)
 
