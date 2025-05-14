@@ -37,17 +37,12 @@ Abbreviated instructions for working with the project (scripts in the scripts/ f
 4. Deploy:
 ./scripts/deploy.sh
 # 4. Settings and configuration
--  System configuration
-The config/system.conf file:
-[system].
-log_level=INFO
-max_threads=10
--  Configuration of bots
+Сonfig/system.conf file: log_level=INFO max_threads=10
+
 File config/bots.conf:
-[bot1]
-task_type=DOWNLOAD
-priority=HIGH
-params=url:http://localhost/file.txt,destination:/tmp/file.txt
+   task_type=DOWNLOAD
+  - priority=HIGH
+  - params=url:http://localhost/file.txt,destination:/tmp/file.txt
 
 # 5. Running and configuring with Docker
  - Build the image:   docker build -t image -f docker/Dockerfile
