@@ -3,7 +3,7 @@
 
 # 1. Functionality
  1. Various attack methods (automated messaging, phishing, social engineering).
- 2. Wide range of distribution: email, SMS, messengers (Telegram, WhatsApp), social networks (Facebook, Instagram), etc.
+ 2. Wide range of distribution: email, SMS, messengers (Telegram, WhatsApp), social networks (Facebook, Instagram).
  3. Software distribution: sending and auto-installation of software on recipients' devices.
  4. Botnet management: centralized orchestration of infected devices.
  5. Stealth technologies: polymorphism, antivirus bypass, encryption, obfuscation.
