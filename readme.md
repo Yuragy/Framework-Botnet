@@ -1,5 +1,4 @@
-## Framework Botnet
-Framework for creating and managing a botnet: 
+## Framework for creating and managing a botnet: 
 ![](./scr/applsci-09-02375-g001.png)
 
 # 1. Functionality
