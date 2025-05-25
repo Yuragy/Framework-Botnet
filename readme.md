@@ -105,4 +105,7 @@ Generation of summary reports.
    [https://arxiv.org/abs/2112.07623](https://arxiv.org/abs/2112.07623)
 
 
-## This is a tutorial demonstrating the possibility, the responsibility for use lies with you!
+## 🚫 Disclaimer
+
+This repository is provided for **educational purposes only** and intended for **authorized security research**.
+Use of these materials in unauthorized or illegal activities is **strictly prohibited**.
