@@ -27,15 +27,15 @@ Framework for creating **and** managing a botnet
 > - Libraries (Boost, OpenSSL, …) – depending on project modules  
 > - Docker – if containerization is required  
 
-### 🔨 Build
-The build script lives in `./scripts/build.sh`:
+### Build
+The build script lives in ./scripts/build.sh:
 
 ```bash
 ./scripts/build.sh
 # → executable appears in ./build/
 ````
 
-### 🚀 Run
+### Run
 
 ```bash
 ./build/your_project_executable
@@ -43,7 +43,7 @@ The build script lives in `./scripts/build.sh`:
 
 ---
 
-## 3 · Basic Commands (scripts/)
+## 3 · Basic Commands
 
 | Action           | Script                   |
 | ---------------- | ------------------------ |
@@ -56,14 +56,14 @@ The build script lives in `./scripts/build.sh`:
 
 ## 4 · Settings & Configuration
 
-`config/system.conf`
+config/system.conf
 
 ```ini
 log_level   = INFO
 max_threads = 10
 ```
 
-`config/bots.conf`
+config/bots.conf
 
 ```ini
 task_type = DOWNLOAD
@@ -75,11 +75,13 @@ params    = url:http://localhost/file.txt,destination:/tmp/file.txt
 
 ## 5 · Running with Docker
 
-```bash
-# Build image
+Build image:
+```
 docker build -t image -f docker/Dockerfile .
+```
 
-# Launch container
+Launch container:
+```
 docker run -d -p 8080:8080 image
 ```
 
@@ -102,7 +104,7 @@ docker run -d -p 8080:8080 image
 
 ---
 
-## 📚 Useful Resources
+## Useful Resources
 
 1. **Master of Puppets: Analyzing And Attacking A Botnet For Fun And Profit** – Cutwail/Pushdo architecture & C2 weaknesses.
    [https://arxiv.org/abs/1511.06090](https://arxiv.org/abs/1511.06090)
