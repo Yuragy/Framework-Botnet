@@ -1,30 +1,30 @@
 
 # Botnet Framework  
-Framework for creating **and** managing a botnet
+Framework for creating and managing a botnet
 
 ![](./scr/IoT_M2M_communication.png)
 
 ---
 
 ## 1&nbsp;· Functionality
-1. **Various attack methods** – automated messaging, phishing, social-engineering.  
-2. **Wide distribution channels** – e-mail, SMS, messengers (Telegram, WhatsApp), social networks (Facebook, Instagram).  
-3. **Software distribution** – send *and* auto-install software on recipients’ devices.  
-4. **Botnet management** – centralized orchestration of infected devices.  
-5. **Stealth technologies** – polymorphism, AV bypass, encryption, obfuscation.  
-6. **Data collection** – steal passwords, payment details, browser data.  
-7. **Multi-platform** – Windows · Linux · macOS · Android · iOS.  
-8. **Captcha bypass** – built-in solver (**`CaptchaSolver`**).  
-9. **Self-protection** – hide traces, defend against analysis.  
-10. **Monitoring & reports** – collect statistics, generate work-done reports.  
+1. Various attack methods – automated messaging, phishing, social-engineering.  
+2. Wide distribution channels – e-mail, SMS, messengers Telegram, WhatsApp, social networks Facebook, Instagram.  
+3. Software distribution – send and auto install software on recipients devices.  
+4. Botnet management – centralized orchestration of infected devices.  
+5. Stealth technologies – polymorphism, AV bypass, encryption, obfuscation.  
+6. Data collection – steal passwords, payment details, browser data.  
+7. Multi platform – Windows · Linux · macOS · Android · iOS.  
+8. Captcha bypass – built in solver CaptchaSolver.  
+9. Self protection – hide traces, defend against analysis.  
+10. Monitoring & reports – collect statistics, generate work done reports.  
 
 ---
 
 ## 2&nbsp;· Getting Started
 
-> **Prerequisites**  
-> - CMake + C/C++ compiler (GCC/Clang) – when building C++ via CMake  
-> - Libraries (Boost, OpenSSL, …) – depending on project modules  
+> Prerequisites  
+> - CMake + C/C++ compiler GCC/Clang – when building C++ via CMake  
+> - Libraries Boost, OpenSSL – depending on project modules  
 > - Docker – if containerization is required  
 
 ### Build
@@ -32,7 +32,7 @@ The build script lives in ./scripts/build.sh:
 
 ```bash
 ./scripts/build.sh
-# → executable appears in ./build/
+executable appears in ./build/
 ````
 
 ### Run
@@ -47,10 +47,10 @@ The build script lives in ./scripts/build.sh:
 
 | Action           | Script                   |
 | ---------------- | ------------------------ |
-| **Build**        | `./scripts/build.sh`     |
-| **Tests**        | `./scripts/test.sh`      |
-| **Load testing** | `./scripts/load_test.sh` |
-| **Deploy**       | `./scripts/deploy.sh`    |
+| **Build**        | ./scripts/build.sh     |
+| **Tests**        | ./scripts/test.sh      |
+| **Load testing** | ./scripts/load_test.sh |
+| **Deploy**       | ./scripts/deploy.sh    |
 
 ---
 
@@ -58,14 +58,14 @@ The build script lives in ./scripts/build.sh:
 
 config/system.conf
 
-```ini
+```
 log_level   = INFO
 max_threads = 10
 ```
 
 config/bots.conf
 
-```ini
+```
 task_type = DOWNLOAD
 priority  = HIGH
 params    = url:http://localhost/file.txt,destination:/tmp/file.txt
@@ -92,9 +92,9 @@ docker run -d -p 8080:8080 image
 | Topic                      | Highlights                                                                    |
 | -------------------------- | ----------------------------------------------------------------------------- |
 | **Mass mailings**          | E-mail, SMS, Telegram, WhatsApp, Facebook, Instagram · Personalised templates |
-| **Phishing / SE**          | Phishing URLs → fake sites · URL masking (shorteners, redirects)              |
+| **Phishing / SE**          | Phishing URLs → fake sites · URL masking shorteners, redirects              |
 | **Software distribution**  | File attachments · Auto-download & install                                    |
-| **Botnet management**      | Central commands via **`BotNetManager`** · Auto-updates                       |
+| **Botnet management**      | Central commands via BotNetManager · Auto updates                       |
 | **Stealthy distribution**  | AV bypass, polymorphism, encryption, obfuscation                              |
 | **Data collection**        | Credentials, payment info → C2                                                |
 | **OS support**             | Platform-specific exploits Windows / Linux / macOS / Android / iOS            |
@@ -119,7 +119,7 @@ docker run -d -p 8080:8080 image
 
 ---
 
-## 🚫 Disclaimer
+## Disclaimer
 
-This repository is provided for **educational purposes only** and intended for **authorized security research**.
-Use of these materials in unauthorized or illegal activities is **strictly prohibited**.
+This repository is provided for educational purposes only and intended for authorized security research.
+Use of these materials in unauthorized or illegal activities is strictly prohibited.
